@@ -1689,25 +1689,21 @@ body.has-theme-bar #page {
   flex-flow: wrap; }
 
 .presentation .presentation_section .info-box {
-  width: 19%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%; }
-  @media (max-width: 1340px) {
-    .presentation .presentation_section .info-box {
-      width: 100%;
-      order: 1;
-      padding-bottom: 0.6%; } }
+  padding: 2%;
+  width: 100%;
+  order: 1;
+  padding-bottom: 0.6%; }
+
 .presentation .presentation_section .preview-box {
-  width: 70%;
-  padding: 1%; }
-  @media (max-width: 1340px) {
-    .presentation .presentation_section .preview-box {
-      width: 100%;
-      order: 2;
-      padding-top: 0%;
-      padding-bottom: 2%; } }
+  padding: 1%;
+  width: 100%;
+  order: 2;
+  padding-top: 0%;
+  padding-bottom: 2%; }
+
 .presentation .presentation_section .preview-box .preview-pdf {
   height: 500px; }
 
