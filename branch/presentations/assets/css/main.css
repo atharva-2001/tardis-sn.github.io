@@ -1660,6 +1660,15 @@ body.has-theme-bar #page {
   margin: -81px 0px 0px;
   display: block; }
 
+.sponsor-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.sponsor-container p {
+  padding-top: 10px; }
+
 .presentation {
   position: relative;
   display: flex;
