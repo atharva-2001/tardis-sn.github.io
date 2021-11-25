@@ -1690,13 +1690,6 @@ body.has-theme-bar #page {
   width: 100%; }
 
 .presentation .presentation_section .preview-box {
-  width: 100%; }
-
-.presentation .presentation_section .preview-box .preview-pdf {
-  width: 100%;
-  aspect-ratio: 16/9; }
-
-.presentation .presentation_section .preview-box .preview-video {
   width: 100%;
   aspect-ratio: 16/9; }
 
