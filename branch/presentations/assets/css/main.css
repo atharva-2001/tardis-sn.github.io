@@ -1673,11 +1673,9 @@ body.has-theme-bar #page {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start; }
-  @media (max-width: 1340px) {
-    .presentation {
-      margin-left: 0%;
-      margin-right: 0%; } }
+  justify-content: start;
+  margin-bottom: 45px; }
+
 .presentation .presentation_section {
   display: flex;
   flex-direction: row;
@@ -1689,13 +1687,10 @@ body.has-theme-bar #page {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  order: 1; }
+  width: 100%; }
 
 .presentation .presentation_section .preview-box {
-  width: 100%;
-  order: 2;
-  padding-bottom: 7%; }
+  width: 100%; }
 
 .presentation .presentation_section .preview-box .preview-pdf {
   width: 100%;
