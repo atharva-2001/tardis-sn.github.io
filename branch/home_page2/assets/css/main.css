@@ -1021,6 +1021,24 @@ textarea {
 .cta-block .cell {
   text-align: center; }
 
+#hero-background-video-outer {
+  position: relative;
+  z-index: -1;
+  object-fit: fill; }
+
+#hero-background-video {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: center; }
+
+#hero-main-content {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center; }
+
 @media only screen and (min-width: 801px) {
   .hero-block .cell:only-child,
   .text-block .cell:only-child,
