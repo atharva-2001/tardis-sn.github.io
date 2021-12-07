@@ -1031,7 +1031,8 @@ textarea {
   width: 100%;
   z-index: 0;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  filter: brightness(50%); }
 
 #hero-main-content {
   width: 100%;
