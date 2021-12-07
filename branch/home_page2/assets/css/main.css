@@ -1246,6 +1246,12 @@ textarea {
   display: flex;
   justify-content: center; }
 
+.twitter-widget {
+  max-width: 80%;
+  margin-top: 3.33em;
+  margin-bottom: 3.33em;
+  border: 1px solid lightgray; }
+
 .contact-block form {
   margin: 1.66667em 0; }
   .contact-block form:first-child {
