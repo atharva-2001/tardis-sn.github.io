@@ -1242,6 +1242,10 @@ textarea {
   .font-fira-sans .review-author {
     font-weight: 600; }
 
+.twitter-widget-block {
+  display: flex;
+  justify-content: center; }
+
 .contact-block form {
   margin: 1.66667em 0; }
   .contact-block form:first-child {
