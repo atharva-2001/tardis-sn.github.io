@@ -1026,17 +1026,13 @@ textarea {
   aspect-ratio: 16/9; }
   .hero-block.block.outer .hero-background-video-outer {
     position: relative;
-    z-index: -1;
-    object-fit: fill; }
+    z-index: -1; }
   .hero-block.block.outer .hero-background-video {
     position: absolute;
     width: 100%;
     z-index: 0;
-    display: flex;
-    justify-content: center;
     filter: brightness(50%); }
   .hero-block.block.outer .hero-main-content {
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center; }
@@ -1044,8 +1040,12 @@ textarea {
 .hero-main-content {
   text-shadow: 1px 1px 4px black; }
   .hero-main-content .grid
+.block-content .block-title {
+    color: white; }
+  .hero-main-content .grid
 .block-content .block-copy {
-    max-width: 450px; }
+    max-width: 450px;
+    color: white; }
   .hero-main-content .grid
 .block-content .block-buttons .button {
     background: transparent;
